@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:src="@drawable/app_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/doc_scanner_btn"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:background="@drawable/main_item_theme"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="bottom"
+                    android:paddingLeft="15dp"
+                    android:text="Document Scanner"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Scan Documents and image files easily with this scanner."
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="23dp"
+                        android:src="@drawable/scanner" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/qr_scanner_btn"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/main_item_theme"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="bottom"
+                    android:paddingLeft="15dp"
+                    android:text="QR Code Scanner"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Scan QR codes with perfection and accurate results."
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="13sp" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="23dp"
+                        android:src="@drawable/qrcode" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/bar_scanner_btn"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/main_item_theme"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="bottom"
+                    android:paddingLeft="15dp"
+                    android:text="Barcode Scanner"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Scan Barcode in a classic or new way and get details."
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="13sp" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="23dp"
+                        android:src="@drawable/barcode" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/text_scanner_btn"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/main_item_theme"
+                android:elevation="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="bottom"
+                    android:paddingLeft="15dp"
+                    android:text="Text Scanner"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:paddingBottom="15dp"
+                        android:text="Scan text file or text images and get best result from this feature."
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="13sp" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="24dp"
+                        android:src="@drawable/textscanner" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="From"
+                    android:textColor="#5A97FA"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="Octel Production\u00AE"
+                    android:textColor="#5A97FA"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
